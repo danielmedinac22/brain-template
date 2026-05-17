@@ -1,0 +1,20 @@
+# Drafts personales — todo lo que sea claramente working state
+*-draft-*.md
+*-personal.md
+*.draft
+
+# Cosas del sistema
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Claude Code locals (cada usuario los tiene distintos)
+.claude/settings.local.json
+
+# Si decides usar venv para scripts
+.venv/
+__pycache__/
+*.pyc
